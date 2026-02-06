@@ -1,0 +1,24 @@
+<canvas id="c" width="180" height="180"></canvas>
+<script>
+const c = document.getElementById("c");
+const ctx = c.getContext("2d");
+
+ctx.fillStyle = "#000";
+ctx.fillRect(0, 0, 180, 180);
+
+ctx.strokeStyle = "#fff";
+ctx.lineWidth = 6;
+ctx.beginPath();
+ctx.arc(90, 90, 48, 0, Math.PI * 2);
+ctx.stroke();
+
+ctx.fillStyle = "#fff";
+ctx.beginPath();
+ctx.arc(90, 90, 10, 0, Math.PI * 2);
+ctx.fill();
+
+const a = document.createElement("a");
+a.href = c.toDataURL("image/png");
+a.download = "apple-touch-icon.png";
+a.click();
+</script>
