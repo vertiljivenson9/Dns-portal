@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.webClip.managed</string>
+
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>PayloadIdentifier</key>
+      <string>com.portalhub.webclip</string>
+
+      <key>PayloadUUID</key>
+      <string>7C9B7A9E-9F3B-4F5D-A2C2-PORTALHUB01</string>
+
+      <key>PayloadDisplayName</key>
+      <string>PortalHub</string>
+
+      <key>Label</key>
+      <string>PortalHub</string>
+
+      <key>URL</key>
+      <string>https://portalhub-921.pages.dev/</string>
+
+      <key>IsRemovable</key>
+      <true/>
+
+      <key>FullScreen</key>
+      <true/>
+
+      <key>Precomposed</key>
+      <true/>
+
+      <key>IgnoreManifestScope</key>
+      <true/>
+
+      <key>Icon</key>
+      <data>
+      <!-- AQUÍ VA EL ICONO EN BASE64 (PNG 180x180) -->
+      </data>
+    </dict>
+  </array>
+
+  <key>PayloadDisplayName</key>
+  <string>PortalHub App</string>
+
+  <key>PayloadIdentifier</key>
+  <string>com.portalhub.profile</string>
+
+  <key>PayloadUUID</key>
+  <string>9F2A1C3B-PORTAL-HUB-APP-0001</string>
+
+  <key>PayloadType</key>
+  <string>Configuration</string>
+
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+
+</dict>
+</plist>
