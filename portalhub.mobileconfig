@@ -11,16 +11,13 @@
   <integer>1</integer>
 
   <key>PayloadIdentifier</key>
-  <string>com.portalhub.dnsprofile</string>
+  <string>com.portalhub.profile</string>
 
   <key>PayloadUUID</key>
-  <string>6A8B7E2D-4B71-4F6B-9F0A-PORTALHUBDNS1</string>
+  <string>11111111-2222-3333-4444-PORTALHUB01</string>
 
   <key>PayloadDisplayName</key>
-  <string>PortalHub DNS</string>
-
-  <key>PayloadDescription</key>
-  <string>Perfil DNS de PortalHub</string>
+  <string>PortalHub</string>
 
   <key>PayloadOrganization</key>
   <string>PortalHub</string>
@@ -28,33 +25,43 @@
   <key>PayloadContent</key>
   <array>
 
+    <!-- DNS -->
     <dict>
       <key>PayloadType</key>
       <string>com.apple.dnsSettings.managed</string>
-
       <key>PayloadVersion</key>
       <integer>1</integer>
-
       <key>PayloadIdentifier</key>
-      <string>com.portalhub.dns.payload</string>
-
+      <string>com.portalhub.dns</string>
       <key>PayloadUUID</key>
-      <string>1D4C3F91-9A32-4D5A-BE8A-PORTALHUBDNS2</string>
-
-      <key>PayloadDisplayName</key>
-      <string>PortalHub DNS</string>
-
+      <string>22222222-3333-4444-5555-PORTALHUBDNS</string>
       <key>DNSSettings</key>
       <dict>
         <key>DNSProtocol</key>
         <string>HTTPS</string>
-
         <key>ServerURL</key>
         <string>https://dns.cloudflare.com/dns-query</string>
-
-        <key>ServerName</key>
-        <string>PortalHub DNS</string>
       </dict>
+    </dict>
+
+    <!-- ICONO (WEB CLIP) -->
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.webClip.managed</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.portalhub.webclip</string>
+      <key>PayloadUUID</key>
+      <string>33333333-4444-5555-6666-PORTALHUBICON</string>
+      <key>Label</key>
+      <string>PortalHub</string>
+      <key>URL</key>
+      <string>https://portalhub-921.pages.dev/</string>
+      <key>IsRemovable</key>
+      <true/>
+      <key>FullScreen</key>
+      <true/>
     </dict>
 
   </array>
